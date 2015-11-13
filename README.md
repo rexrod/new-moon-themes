@@ -25,8 +25,8 @@ I like to mix it up every now and then, but I've gotten used to things a certain
 ![New Sun CSS Screenshot](https://raw.githubusercontent.com/taniarascia/new-moon-themes/master/images/newsuncss.png)
 
 ## One Dark (Atom)
-![One Dark PHP Screenshot](https://raw.githubusercontent.com/taniarascia/new-moon-themes/master/images/newsunphp.png)
-![One Dark CSS Screenshot](https://raw.githubusercontent.com/taniarascia/new-moon-themes/master/images/newsuncss.png)
+![One Dark PHP Screenshot](https://raw.githubusercontent.com/taniarascia/new-moon-themes/master/images/onedarkphp.png)
+![One Dark CSS Screenshot](https://raw.githubusercontent.com/taniarascia/new-moon-themes/master/images/onedarkcss.png)
 
 ## Tomorrow
 ![Tomorrow PHP Screenshot](https://raw.githubusercontent.com/taniarascia/new-moon-themes/master/images/tomorrowphp.png)
