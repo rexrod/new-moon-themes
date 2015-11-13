@@ -1,7 +1,7 @@
 New Moon Themes for Brackets
 ==========================
 
-The [New Moon](https://github.com/taniarascia/new-moon) was created to be optimized for front end web development - HTML, CSS/LESS/Sass, JavaScript and PHP/WordPress. It's a middle-contrast dark theme that strives to be pleasant to view in any language.
+The [New Moon](https://github.com/taniarascia/new-moon) theme was created to be optimized for front end web development - HTML, CSS/LESS/Sass, JavaScript and PHP/WordPress. It's a middle-contrast dark theme that strives to be pleasant to view in any language.
 
 I like to mix it up every now and then, but I've gotten used to things a certain way - strings are green, variables are blue - so I decided to take all the best color schemes and apply them to the style of New Moon.
 
