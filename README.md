@@ -13,7 +13,7 @@ I like to mix it up every now and then, but I've gotten used to things a certain
 * Search for `New Moon Themes`
 * Click `Install`
 * The theme pack will show up in 	`View -> Themes`
-* The font in my examples is set to 12.5px and Menlo (Mac only)
+* The font in my examples is set to 12px and Menlo (Mac only)
 
 
 ## New Moon Original
