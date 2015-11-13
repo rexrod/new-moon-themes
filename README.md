@@ -50,4 +50,4 @@ I like to mix it up every now and then, but I've gotten used to things a certain
 Credit
 =======================
 
-New Moon Themes is just a simplified version of [Themes for Brackets](https://github.com/Jacse/themes-for-brackets) optimized for method of styling themes. 
+New Moon Themes is just a simplified version of [Themes for Brackets](https://github.com/Jacse/themes-for-brackets) optimized for my method of styling themes. 
