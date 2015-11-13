@@ -1,0 +1,118 @@
+// out: ../themes/zenburn.css
+
+/**  
+* New Moon Twilight Theme for Brackets
+* by Tania Rascia!
+**/
+
+
+/* Colors */
+
+@dark: #2c2b29;
+@light: #a8a7a2;
+@green: #93b3a3;
+@darkblue: #7B8FA3;
+@aqua: #8cd0d3;
+@white: #dde0e5;
+@orangered: #dca3a3;
+@lightblue: #a1b1c1;
+@yellow: #f0efd0;
+@beige: #cbab8c;
+@purple: #9b859d;
+@orange: #EFDCBC;
+@gray: #d4d4d4;
+@red: #d68686;
+@bracketcolor: #abb2bf;
+@white: #cccccc;
+
+/* Editor styling */
+
+@background: #404040; // Code background
+@foreground: #f6f3e8; // Code foreground
+@comment: #93918b; // Comment color
+@comment-active: #dddad0; // Comment active
+@cursor: #ffffff; // Cursor color 
+@activeline-background: rgba(0,0,0, 0.2); // Active line
+@activeline-foreground: rgba(0, 0, 0, 0.3);
+@matchingtag-background: rgba(0, 0, 0, 0.5); // Matching tag
+@selected-background: rgba(0, 0, 0, 0.4); // Selected text
+@matchingbracket-background: rgba(255,255,255,.2);
+
+/* Inline styling */
+
+@string: @green; // String
+@tag: @darkblue; // HTML tag and primary variable
+@variable: @aqua; // Variable
+@variable2: @white; // Alternate variable
+@number: @orangered; // Number
+@definition: @lightblue; // CSS value
+@keyword: @yellow; // CSS !important, JavaScript variable definition
+@operator: @beige; // Math
+@meta: @dark; // DOCTYPE and PHP background
+@meta-color: @light; // DOCTYPE and PHP font color
+@id: @purple; // CSS ID, built in
+@attribute: @orange; // HTML attribute
+@property: @gray; // CSS key
+@qualifier: @orange; // CSS class
+@error: @red; // Error!
+
+/* Styles */
+
+.CodeMirror, .CodeMirror-scroll { background: @background; color: @foreground; } // Overlay
+.CodeMirror-selected { background: @selected-background !important; } // Selected text
+.CodeMirror-linenumber { color: @comment; } // Line numbers
+.cm-comment { color: @comment; }
+.cm-keyword { color: @keyword; } // Keyword
+.cm-atom { color: @definition; } // Definition
+.cm-number { color: @number; } // Number
+.cm-def {	color: @definition; } // Definition
+.cm-variable { color: @variable2; } // Variable
+span.cm-variable-2, span.cm-tag { color: @tag; } // Tag and variable
+span.cm-variable-3, span.cm-def { color: @variable; } // Variable
+.cm-operator { color: @operator; } // Math
+.cm-string { color: @string; } // String
+.cm-string-2 { color: @string; }
+.cm-meta { 	background-color: @meta; 	color: @meta-color; } // Meta
+.cm-builtin { color: @id; } // Built in and id
+.cm-tag { color: @tag; } // Tag
+.cm-attribute { color: @attribute; } // Attribute
+.cm-header { color: @attribute; } // Header
+.cm-hr { color: @comment; }
+.cm-link { color: @operator; }
+.cm-error { color: @error; }
+.cm-qualifier { color: @qualifier; } // Qualifier
+.cm-property { color: @property; } // Property
+.cm-quote { color: @keyword } // Quote
+
+
+/* Additional styles */
+
+.CodeMirror-matchingbracket { // Matching bracket
+	outline: 1px solid #888;
+	color: white !important;
+	background: @matchingbracket-background;
+}
+.CodeMirror-activeline .cm-comment { color: @comment-active; } // Active comment
+.CodeMirror-matchingtag { background: @matchingtag-background; } // Matching tag
+.CodeMirror .CodeMirror-cursor {
+	border-left: 1px solid @cursor !important;
+}
+.CodeMirror .CodeMirror-overwrite .CodeMirror-cursor {
+	border-left: none !important;
+	border-bottom: 1px solid @cursor;
+	width: 1.2ex;
+}
+.CodeMirror-guttermarker { color: @white; }
+.CodeMirror-guttermarker-subtle { color: @gray; }
+.CodeMirror .CodeMirror-gutters { background-color: @background; border-right: 0; }
+.CodeMirror-gutter-elt { color: @comment !important; }
+.CodeMirror-activeline .CodeMirror-gutter-elt { color: #fff !important; }
+
+.CodeMirror .CodeMirror-linenumber { color: @activeline-foreground; }
+.CodeMirror-activeline-background, .CodeMirror-activeline .CodeMirror-gutter-elt {
+	background: @activeline-background !important;
+}
+/*
+span.cm-bracket {
+  color: @bracketcolor !important;
+}*/

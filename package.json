@@ -1,0 +1,21 @@
+{
+	"title": "New Moon Themes",
+	"name": "new-moon-themes",
+	"author": "Tania Rascia <taniarascia@gmail.com> (http://www.taniarascia.com)",
+	"description": "Paint with all the colors of the moon! The beautiful syntax highlighting you know and love is now available in all your favorite flavors - Monokai, Tomorrow Night, One Dark, and more!",
+	"version": "0.1.0",
+	"keywords": [
+        "themes",
+        "brackets",
+        "new moon",
+        "syntax",
+        "dark",
+				"tomorrow"
+    ],
+	"homepage": "https://github.com/taniarascia/new-moon-themes",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/taniarascia/new-moon-themes.git"
+	},
+	"categories": "visual"
+}
